@@ -4,7 +4,7 @@
 
 This is a natural language processing project (NLP) using Python with NLTK, and Hugging Face Roberta Transformers to analyze fine food sentiments on Amazon
 
-> [!Note] When Viewing the Source Code
+> [!Note]
 > Make sure to open the [NBViewer URL](https://nbviewer.org/github/jpsam07/sentiment-analysis-on-amazon-fine-food-reviews/blob/c5309a2e86b7e084eb5f5eacc4e45aa6d2717922/sentiment_analysis_on_food_reviews.ipynb) for a richer view of the Jupyter Notebook.
 
 
@@ -33,7 +33,7 @@ This is a natural language processing project (NLP) using Python with NLTK, and 
 
 
 
-> [!NOTE] Kaggle Dataset Source
+> [!NOTE]
 > The procedure as to how the dataset was sampled can be viewed in this [Kaggle Notebook](https://www.kaggle.com/code/joaquinsamson/preparing-data-for-sentiment-analysis)
 
 ## Environment Setup and Data Loading
