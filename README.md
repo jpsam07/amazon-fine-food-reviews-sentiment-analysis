@@ -4,6 +4,13 @@
 
 This is a natural language processing project (NLP) using Python with NLTK, and Hugging Face Roberta Transformers to analyze fine food sentiments on Amazon
 
+
+<div class="alert alert-block alert-info">
+<b>Tip:</b> Use blue boxes (alert-info) for tips and notes. 
+If it’s a note, you don’t have to include the word “Note”.
+</div>
+
+
 ## Table of Contents
 
 - [Data Collection](#data-collection)
