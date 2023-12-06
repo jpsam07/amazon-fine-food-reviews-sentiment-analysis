@@ -4,16 +4,18 @@
 
 This is a natural language processing project (NLP) using Python with NLTK, and Hugging Face Roberta Transformers to analyze fine food sentiments on Amazon
 
+## Table of Contents
+
 - [Data Collection](#data-collection)
 - [Environment Setup and Data Loading](#environment-setup-and-data-loading)
 - [Data Cleaning](#data-cleaning)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Basic NLTK](#basic-nltk)
-- [Tokenization](#tokenization)
-- [Tagging](#tagging)
-- [VADER Model](#vader-model)
-- [Polarity Scoring](#polarity-scoring)
-- [VADER Results](#vader-results)
+	- [Tokenization](#tokenization)
+	- [Tagging](#tagging)
+	- [VADER Model](#vader-model)
+	- [Polarity Scoring](#polarity-scoring)
+	- [VADER Results](#vader-results)
 - [Roberta Pre-trained Model](#roberta-pre-trained-model)
 - [Roberta Model vs. VADER Model](#roberta-model-vs-vader-model)
 - [Negative Sentiment 5-Star Review](#negative-sentiment-5-star-review)
