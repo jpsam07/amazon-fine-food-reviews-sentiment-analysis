@@ -18,7 +18,7 @@ This project utilized **3 different approaches for sentiment analysis**:
 
 - [Data Collection](#data-collection)
 - [Environment Setup and Data Loading](#environment-setup-and-data-loading)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [NLTK Text Preprocessing](#nltk-text-preprocessing)
 - [VADER Model](#vader-model)
 - [Roberta Pre-trained Model](#roberta-pre-trained-model)
