@@ -64,7 +64,7 @@ Once you have run those lines of code, you can proceed to turn them into comment
 - Visualized food review counts by ratings
 ![Food review counts by ratings](./images/food_review_counts_by_ratings.png)
 
-## NLTK Text Pre-processing
+## NLTK Text Preprocessing
 
 ![NLTK Text Preprocessing Workflow](./images/nltk_text_preprocessing_workflow.png)
 
