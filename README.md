@@ -18,18 +18,13 @@ This project utilized **3 different approaches for sentiment analysis**:
 
 - [Data Collection](#data-collection)
 - [Environment Setup and Data Loading](#environment-setup-and-data-loading)
-- [Data Cleaning](#data-cleaning)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Basic NLTK](#basic-nltk)
-	- [Tokenization](#tokenization)
-	- [Tagging](#tagging)
-	- [VADER Model](#vader-model)
-	- [Polarity Scoring](#polarity-scoring)
-	- [VADER Results](#vader-results)
+- [NLTK Text Preprocessing](#nltk-text-preprocessing)
+- [VADER Model](#vader-model)
 - [Roberta Pre-trained Model](#roberta-pre-trained-model)
 - [Roberta Model vs. VADER Model](#roberta-model-vs-vader-model)
-- [Negative Sentiment 5-Star Review](#negative-sentiment-5-star-review)
 - [Hugging Face Transformers Pipeline](#hugging-face-transformers-pipeline)
+- [Conclusion](#conclusion)
 - [References](#references)
 
 ## Data Collection
@@ -61,20 +56,17 @@ Once you have run those lines of code, you can proceed to turn them into comment
 ## Exploratory Data Analysis (EDA)
 
 - Used the `.info()` method for a quick overview of the data
-
 ![Data overview with the info method](./images/data_overview_with_info_method.png)
 
 - Checked for missing values
-
 ![Checking for missing values](./images/checking_for_missing_values.png)
 
 - Visualized food review counts by ratings
-
 ![Food review counts by ratings](./images/food_review_counts_by_ratings.png)
 
 ## NLTK Text Pre-processing
 
-![](./images/nltk_text_preprocessing_workflow.png)
+![NLTK Text Preprocessing Workflow](./images/nltk_text_preprocessing_workflow.png)
 
 **Image Source:** [Oreilly](https://www.oreilly.com/api/v2/epubs/9781492074076/files/assets/btap_0401.png)
 
@@ -88,17 +80,13 @@ Did the following text preprocessing techniques:
 ## VADER Model
 
 - Created a `SentimentIntensityAnalyzer` object for [Polarity Scoring](#polarity-scoring)
-
 ![Sentiment Intensity Analyzer Object](./images/sia_object.png)
 
 - Tested out polarity scoring method
-
 ![Testing polarity scoring method](./images/testing_polarity_scoring_method.png)
 
 - Applied polarity scoring on the whole dataset and plotted the results
-
 ![Compound Score by Star Review](./images/vader_compound_score_by_star_review.png)
-
 ![Polarity Scores by Sentiment Category](./images/vader_polarity_scores_by_sentiment_category.png)
 
 ## Roberta Pre-Trained Model
@@ -111,7 +99,6 @@ Did the following text preprocessing techniques:
 ## Roberta Model vs. VADER Model
 
 - Plotted the polarity scores of the VADER Model against the Roberta Model
-
 ![](./images/vader_vs_roberta_model_pairplot.png)
 
 ## Hugging Face Transformers Pipeline
@@ -121,7 +108,6 @@ Did the following text preprocessing techniques:
 ![Hugging Face Pipeline object](./images/huggingface_pipeline_object.png)
 
 - Tested the pipeline object on sample text for sentiment scoring
-
 ![Testing out Hugging Face Pipeline](./images/testing_out_huggingface_pipeline.png)
 
 ## Conclusion
