@@ -56,12 +56,15 @@ Once you have run those lines of code, you can proceed to turn them into comment
 ## Exploratory Data Analysis (EDA)
 
 - Used the `.info()` method for a quick overview of the data
+
 ![Data overview with the info method](./images/data_overview_with_info_method.png)
 
 - Checked for missing values
+
 ![Checking for missing values](./images/checking_for_missing_values.png)
 
 - Visualized food review counts by ratings
+
 ![Food review counts by ratings](./images/food_review_counts_by_ratings.png)
 
 ## NLTK Text Preprocessing
@@ -80,13 +83,19 @@ Did the following text preprocessing techniques:
 ## VADER Model
 
 - Created a `SentimentIntensityAnalyzer` object for [Polarity Scoring](#polarity-scoring)
+
 ![Sentiment Intensity Analyzer Object](./images/sia_object.png)
 
 - Tested out polarity scoring method
+
 ![Testing polarity scoring method](./images/testing_polarity_scoring_method.png)
 
-- Applied polarity scoring on the whole dataset and plotted the results
+- Applied polarity scoring on the whole dataset and plotted the compound score by star review
+
 ![Compound Score by Star Review](./images/vader_compound_score_by_star_review.png)
+
+- Plotted the polarity scores by sentiment category
+
 ![Polarity Scores by Sentiment Category](./images/vader_polarity_scores_by_sentiment_category.png)
 
 ## Roberta Pre-Trained Model
@@ -99,15 +108,18 @@ Did the following text preprocessing techniques:
 ## Roberta Model vs. VADER Model
 
 - Plotted the polarity scores of the VADER Model against the Roberta Model
+
 ![](./images/vader_vs_roberta_model_pairplot.png)
 
 ## Hugging Face Transformers Pipeline
 
 - Imported the `pipeline` module from `transformers`
 - Created a pipeline object for sentiment analysis
+
 ![Hugging Face Pipeline object](./images/huggingface_pipeline_object.png)
 
 - Tested the pipeline object on sample text for sentiment scoring
+
 ![Testing out Hugging Face Pipeline](./images/testing_out_huggingface_pipeline.png)
 
 ## Conclusion
