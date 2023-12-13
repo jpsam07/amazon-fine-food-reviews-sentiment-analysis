@@ -7,10 +7,6 @@ This is a natural language processing project (NLP) using Python with NLTK, and 
 > [!Note]
 > Make sure to open the [NBViewer URL](https://nbviewer.org/github/jpsam07/sentiment-analysis-on-amazon-fine-food-reviews/blob/c5309a2e86b7e084eb5f5eacc4e45aa6d2717922/sentiment_analysis_on_food_reviews.ipynb) for a richer view of the Jupyter Notebook.
 
-
-
-
-
 ## Table of Contents
 
 - [Data Collection](#data-collection)
@@ -31,10 +27,8 @@ This is a natural language processing project (NLP) using Python with NLTK, and 
 
 ## Data Collection
 
-
-
 > [!NOTE]
-> The procedure as to how the dataset was sampled can be viewed in this [Kaggle Notebook](https://www.kaggle.com/code/joaquinsamson/preparing-data-for-sentiment-analysis)
+> The procedure as to how the dataset was sampled and collected can be viewed in this [Kaggle Notebook](https://www.kaggle.com/code/joaquinsamson/preparing-data-for-sentiment-analysis)
 
 ## Environment Setup and Data Loading
 
